@@ -6,12 +6,12 @@
   display: none;
 }
 ::selection {
-  color: #22000f;
+  color: #770add;
   background-color: #fff480;
 }
 body {
-  background-color: black;
-  color: #ff0000;
+  background-color: whitesmoke;
+  color: #ffff00;
 }
 .containers {
   padding: 10px 10px;
@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 20%;
   border-radius: 5vw;
-  background-color: #22000f;
+  background-color: #770add;
   overflow-x: auto;
 }
 .container-1 .content {
@@ -68,7 +68,7 @@ body {
   flex-shrink: 0;
   border-radius: 50%;
   text-align: center;
-  background: yellow;
+  background: #770add;
   cursor: pointer;
   transition: all 0.4s ease;
   height: 90px;
@@ -236,8 +236,8 @@ body {
   width: calc(100% / 3);
   border-radius: 5vw;
   border: none;
-  background-color: #22000f;
-  color: #ff0000;
+  background-color: #770add;
+  color: #ffff00;
   height: 100%;
   margin: 2px 5px;
   font-family: "Bricolage Grotesque";
@@ -262,10 +262,10 @@ body {
 .row2 .textarea {
   width: 100%;
   border-radius: 5vw;
-  background-color: #22000f;
+  background-color: #770add;
   height: 100%;
   resize: none;
-  color: #ff0000;
+  color: #770add;
   display: flex;
   position: relative;
   align-items: center;
@@ -275,14 +275,14 @@ body {
   border: 2px solid transparent;
 }
 .textarea textarea {
-  background-color: #22000f;
+  background-color: #770add;
   height: 80%;
   font-family: "Bricolage Grotesque";
   font-weight: 600;
   font-size: 16px;
   z-index: 10;
   resize: none;
-  color: #ff0000;
+  color: #ffff00;
   outline: none;
   border: none;
   width: 90%;
@@ -291,7 +291,7 @@ body {
 .container-2 .submitbtn {
   width: 25%;
   border-radius: 5vw;
-  background-color: #ff0000;
+  background-color: #ffff00;
   height: 100%;
   display: flex;
   align-items: center;
@@ -309,10 +309,10 @@ body {
 }
 input::placeholder,
 textarea::placeholder {
-  color: #ff0000;
+  color: #ffff00;
 }
 input:focus {
-  border: 2px solid #ff0000;
+  border: 2px solid #000;
 }
 .contact-form {
   position: absolute;
